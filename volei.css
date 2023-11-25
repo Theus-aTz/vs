@@ -1,0 +1,12 @@
+.head {
+    background-color: #080324;
+    width: 100%;
+    position: fixed;
+    height: 35px;
+    z-index: 50;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.0em;
+    padding-top: 0.3%;  
+  }
