@@ -1,5 +1,5 @@
 .head {
-    background-color: #080324;
+    background-color: #7209e9;
     width: 100%;
     position: fixed;
     height: 35px;
@@ -8,5 +8,8 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 1.0em;
-    padding-top: 0.3%;  
+    padding-top: 0.6%;  
+  }
+.logo-volei {
+   height: 50px;
   }
