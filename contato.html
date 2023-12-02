@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style_contato.css" >
 
     <title>RAVEN_SportSpace</title>
@@ -12,6 +11,24 @@
 </head>
 
 <body>
+    <!-- Inicio menu -->
+    <header id="header">
+        <a id="logo" href="index.html"><img src="img/geral/Raven_SpaceSport.png" alt="Logo Empresa Modelo"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="LinkMenu" href="index.html">Home</a></li>
+                <li><a class="LinkMenu" href="basquete.html">Basquete</a></li>
+                <li><a class="LinkMenu" href="volei.html">Volei</a></li>
+                <li><a class="LinkMenu" href="futebol.html">Futebol</a></li>
+                <li><a class="LinkMenu" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <!- - Fim menu -->
 </body>
 
 
@@ -22,7 +39,7 @@
             <div class="col-md-7">
                 <div class="section-title">
                     <h2>Entre em Contato com Agente</h2><br>
-                    <p><b>Formulário de contato:</b> Desenvolvido para atender melhor o cliente</p>
+                    <p><b>Formulário de contato:</b> Desenvolvido para atender melhor nossos clientes</p>
                 </div>
             </div>
         </div>
@@ -39,12 +56,13 @@
                         <div class="col-md-6 form-group">
                             <input type="e-mail" class="form-control" name="e-mail" id="name" placeholder="Insira seu e-mail">
                         </div>
+
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" id="message" placeholder="Insira sua mensagem"></textarea>
+                        <textarea class="form-control" name="message" id="message" placeholder="Insira sua mensagem"></textarea>
                     </div>
                     <button type="submit" class="btn btn-light">Enviar</button>
                 </form>
@@ -52,17 +70,74 @@
 
             <div class="col-lg-5">
                 <div class="map">
-                    <iframe src="" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.002713421134!2d-47.463449923727175!3d-23.49641175921125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58aa52f103a81%3A0x8deaafddceff2255!2sP%C3%A1tio%20Cian%C3%AA%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1701536825844!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <!-- Inicio Espaço Marketing -->
-            <!-- Fim Espaço Marketing -->
         </div>
 
     </div>
+    
 </section>
 <!-- Fim Contato -->
 
+    <!-- Inicio Footer -->
 
+    <footer class="rodape">
+        <div class="container">
+            <div class="row m-0">
+                <!-- Inicio Logo -->
+                <div id="logo-rodape" class="col-md-4">
+                    <figure>
+                        <img src="./img/geral/Raven_SpaceSport.png" alt="Logo Rodape">
+                    </figure>
+                </div>
+                <!-- Fim Logo -->
+                <!-- Inicio texto rodape -->
+                <div class="col-md-4">
+                    <div class="info-contato">
+                        <p><strong>Email:</strong></p>
+                        <p>matheushbs.santana@gmail.com</p><br>
+                        <p><strong>Endereço:</strong></p>
+                        <p>Patio Shopping Cianê</p><br>
+                        <p><strong>Telefone:</strong></p>
+                        <p>+55 (15)98830-7736</p>
+                    </div>
+                </div>
+                <!-- Fim texto rodape -->
+                <!-- Inicio Midias Socias -->
+                <div class="col-md-4">
+                    <figure class="redes-sociais">
+                        <a href="https://facebook.com/NBABrasil"><img src="./img/geral/face.png"
+                                alt="Facebook"></a>
+
+                        <a href="https://www.youtube.com/@nbabrasil/"><img src="./img/geral/youtube.png"
+                                alt="Youtube"></a>
+
+                        <a href="https://instagram.com/nbabrasil"><img src="./img/geral/insta.png"
+                                alt="Instagram"></a>
+
+                    </figure>
+                    <br>
+                    <li><a class="Linkfooter" href="index.html">Home</a></li>
+                    <li><a class="Linkfooter" href="basquete.html">Basquete</a></li>
+                    <li><a class="Linkfooter" href="volei.html">Volei</a></li>
+                    <li><a class="Linkfooter" href="futebol.html">Futebol</a></li>
+                    <li><a class="Linkfooter" href="contato.html">Contato</a></li>
+                </div>
+                <!-- Fim Midias Socias -->
+                <!-- Inicio direitos autorais -->
+                <div class="col-12">
+                    <p class="direitos">Todos direitos Reservados &copy;2023 NBA Media Ventures, LLC.</p>
+                </div>
+                <!-- fim direitos autorais -->
+            </div>
+        </div>
+    </footer>
+    <!-- Fim Footer -->
+</body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="./js/script_menu.js"></script>
 
 </html>
