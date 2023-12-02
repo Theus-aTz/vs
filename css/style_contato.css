@@ -3,8 +3,31 @@
 /* Inicio Estilo Contato */
 
 .contact {
-    padding: 70px 0px;
-    background: #aa0acad2;
+    padding: 70px 70px;
+    background: #7233cd;
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid rgb(15, 15, 52);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+
+}
+.contact input,
+.contact textarea {
+    background-color: #e8e8e8;
+}
+.contact textarea {
+    min-height: 188px;
+    max-width: 100%;
 }
 
 /* Fim Estilo Contato */
