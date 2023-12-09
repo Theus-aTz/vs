@@ -64,16 +64,22 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
 /*  Inicio Estilo carousel */
 
-#carouselExampleInterval .carousel .carousel-item .slide{ 
+#carouselExampleInterval { 
     
-    position: relative;
+    display: flex;
+    position: block;
     z-index: 10;
     padding-top: 10px;
+    justify-content: center;
     box-shadow: 3px 3px 6px  #b1b1b1;
-    height:100%;
-    width: 100%;
-    max-width: 300px;   
-    max-height: 300px;
+    height:500px;
+    width: 1200px;
+    /* max-width: 300px;    */
+    /* max-height: 300px; */
+}
+#carouselExampleInterval .carousel-inner .carousel-item img{
+    width:10%;
+    height: 100%;
 }
 
 
