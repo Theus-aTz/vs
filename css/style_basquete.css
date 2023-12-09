@@ -66,29 +66,25 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 /*  Inicio Estilo carousel */
 
  #carouselExampleInterval {
-    position: relative;
+    position: block;
     display: flex;
     justify-content: center;
-    align-items: center;
     z-index: 10;
-    padding-top: 10px;
-    box-shadow: 3px 3px 6px  white;
+    margin-top: 10px;
     height: auto;
-    
-    
+    width: 400px;
+    margin-left:auto ;
+    margin-right:auto ;
  }
- #carouselExampleInterval .carousel .slide {
-    height: 300px;
-    
+ 
+ #carouselExampleInterval .carousel-inner .carousel-item img {
+
+    height: auto;
+    box-shadow: 3px 3px 6px  gray;
+
+
  }
-.carousel-item {
-    max-width: 500px;
-    max-height: 50%;
-}
-.carousel-inner {
-    margin-left: auto;
-    margin-right: auto;
-}
+    
 
 
 /*  Fim Estilo carousel */
