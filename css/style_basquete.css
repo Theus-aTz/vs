@@ -42,6 +42,7 @@ body, ul {
     height: 110px;
     padding: 1rem;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
     /* background: #7233cd; */
@@ -64,23 +65,31 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
 /*  Inicio Estilo carousel */
 
- #carouselExampleInterval .carousel .slide {
-    position: block;
+ #carouselExampleInterval {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     z-index: 10;
     padding-top: 10px;
     box-shadow: 3px 3px 6px  white;
+    height: auto;
+    
+    
+ }
+ #carouselExampleInterval .carousel .slide {
     height: 300px;
-    max-width: 1000px;
-    max-height: 1000px;
+    
  }
 .carousel-item {
-    
-    position: relative;
     max-width: 500px;
     max-height: 50%;
 }
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*  Fim Estilo carousel */
 
