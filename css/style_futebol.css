@@ -69,8 +69,8 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
     z-index: 10;
     padding-top: 10px;
     box-shadow: 3px 3px 6px  #b1b1b1;
-    width: 1000px;
-    height: 500px;
+    width: 100px;
+    height: 300px;
 }
 
 
