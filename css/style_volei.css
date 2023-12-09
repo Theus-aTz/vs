@@ -64,14 +64,13 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
 /*  Inicio Estilo carousel */
 #carouselExampleInterval .carousel .slide{
-    position: relative;
+    position: block;
+    display: flex;
+    justify-content: center;
     z-index: 10;
     padding-top: 10px;
     box-shadow: 3px 3px 6px  white;
-    width: 30%;
-    height: 30%;
-    max-width: 800px;
-    max-height: 800px;
+    height: 300px;
 }
 .carousel-item {
     position: relative;
