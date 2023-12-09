@@ -39,7 +39,7 @@ body, ul {
 }
 #header{
     box-sizing: border-box;
-    height: 80px;
+    height: 110px;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -63,24 +63,26 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
 
 /*  Inicio Estilo carousel */
-#carouselExampleInterval .carousel .slide{
-    position: block;
-    display: flex;
-    justify-content: center;
+
+#carouselExampleInterval .carousel .carousel-item .slide{ 
+    
+    position: relative;
     z-index: 10;
     padding-top: 10px;
-    box-shadow: 3px 3px 6px  white;
-    height: 300px;
+    box-shadow: 3px 3px 6px  #b1b1b1;
+    height:100%;
+    width: 100%;
+    max-width: 300px;   
+    max-height: 300px;
 }
-.carousel-item {
-    position: relative;
-    max-width: 50%;
-    max-height: 50%;
-}
+
+
+
+
 /*  Fim Estilo carousel */
 
 /* Inicio estilo media  mobile */
-@media (max-width: 690px) {
+@media screen and (max-width: 690px) {
     #menu{
         display: block;
         position: absolute;
@@ -94,6 +96,9 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
         padding-left: 5px;
         visibility: hidden;
         overflow-y: hidden;
+    }
+    .section-banner-home{
+        height: auto !important;
     }
     #menu li {
         padding-top: 30px;
@@ -157,26 +162,33 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
 /*  Inicio estilo Banner Home */
 .section-banner-home{
-width: 60%;
-height: 600px;
+width: 100%;
+height: auto;
 margin-top: 10px;
 padding: 50px;
-background-color: #7233cd;
+background-color: #0f0f34;
 box-shadow: 3px 3px 6px  #b1b1b1
+}
+
+.section-banner-home img {
+    height: 100%;
+    width: 67%;
+    display: block;
+    margin: auto;
 }
 .section-banner-home .texto-banner{
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 25px;
 }
 .section-banner-home .texto-banner h1{
-    font-size: 30px;
+    font-size: 35px;
     width: 60%; /* Width = largura*/
     font-weight: 500; /* Espessura do texto*/
     padding-bottom: 20px; /* Margem interna em baixo */
     color: white;
 }
 .section-banner-home .texto-banner p{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: white;
     text-align: justify;
@@ -184,7 +196,7 @@ box-shadow: 3px 3px 6px  #b1b1b1
 .section-banner-home .texto-banner a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #ed174b;
+    background-color: #7233cd;
     padding: 4px 14px;
     font-size: 15px;
     transition: 0.3s;
@@ -251,21 +263,33 @@ box-shadow: 3px 3px 6px  #b1b1b1
 
 /* Inicio Estilo Novidades */
  
-
+.novidades{
+    background: #0f0f34;
+}
 .novidades .text-body {
     width: 80%;
     margin: 70px auto;
-
+}
+.novidades .col-md6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novidades .col-md-6 .img-fluid {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .novidades h2 {
-    color: #000;
+    color: #ffffff;
     font-size: 26px;
     width: 70%;
 }
 .novidades p {
-    color: rgb(0, 0, 0);
-    font-size: 50px;
+    color: #ffffff;
+
 }
 .novidades a {
     justify-content: center;
@@ -622,10 +646,5 @@ display: block;
     border: none;
     outline: 0px solid transparent;
 }
-
-
-
-
-
 
 /* Fim estilo produtos */
