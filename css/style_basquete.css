@@ -64,12 +64,20 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
 /*  Inicio Estilo carousel */
 
-#carouselExampleInterval{
+#carouselExampleInterval .carousel .slide{ 
     position: relative;
     z-index: 10;
     padding-top: 10px;
     box-shadow: 3px 3px 6px  #b1b1b1;
-    height: 500px;
+    height:30%;
+    width: 30%;
+    max-width: 800px;   
+    max-height: 800px;
+}
+.carousel-item{
+   position: relative;
+   max-width: 50%;
+   max-height: 50%;
 }
 
 
@@ -164,24 +172,23 @@ box-shadow: 3px 3px 6px  #b1b1b1
 
 .section-banner-home img {
     height: 100%;
-    width: 100%;
+    width: 67%;
     display: block;
     margin: auto;
-    padding-top: 5%;
 }
 .section-banner-home .texto-banner{
     margin-top: 30px;
     font-size: 22px;
 }
 .section-banner-home .texto-banner h1{
-    font-size: 30px;
+    font-size: 50px;
     width: 60%; /* Width = largura*/
     font-weight: 500; /* Espessura do texto*/
     padding-bottom: 20px; /* Margem interna em baixo */
     color: white;
 }
 .section-banner-home .texto-banner p{
-    font-size: 15px;
+    font-size: 35px;
     margin-bottom: 20px;
     color: white;
     text-align: justify;
