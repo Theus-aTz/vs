@@ -72,8 +72,8 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
     z-index: 10;
     margin-top: 10px;
     height: auto;
-    max-width:  1900px;
-    max-height: relative;
+    max-width:  1300px;
+    max-height: 800px;
     margin-left:auto ;
     margin-right:auto ;
  }
@@ -86,12 +86,30 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 
  }
     
-
+     /* #carouselExampleInterval {
+        position: block;
+        display: flex;
+        justify-content: center;
+        z-index: 10;
+        margin-top: 10px;
+        height: auto;
+        width: 500px;
+        margin-left:auto ;
+        margin-right:auto ;
+     }
+     
+     #carouselExampleInterval .carousel-inner .carousel-item img {
+    
+        height: auto;
+        box-shadow: 3px 3px 6px  gray;
+    
+    
+     } */
 
 /*  Fim Estilo carousel */
 
 /* Inicio estilo media  mobile */
-@media (max-width: 690px) {
+@media screen and (max-width: 690px) {
     #menu{
         display: block;
         position: absolute;
@@ -105,6 +123,9 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
         padding-left: 5px;
         visibility: hidden;
         overflow-y: hidden;
+    }
+    .section-banner-home{
+        height: auto !important;
     }
     #menu li {
         padding-top: 30px;
@@ -169,7 +190,7 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 /*  Inicio estilo Banner Home */
 .section-banner-home{
 width: 100%;
-height: 600px;
+height: auto;
 margin-top: 10px;
 padding: 50px;
 background-color: #0f0f34;
@@ -184,17 +205,17 @@ box-shadow: 3px 3px 6px  #b1b1b1
 }
 .section-banner-home .texto-banner{
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 25px;
 }
 .section-banner-home .texto-banner h1{
-    font-size: 50px;
+    font-size: 35px;
     width: 60%; /* Width = largura*/
     font-weight: 500; /* Espessura do texto*/
     padding-bottom: 20px; /* Margem interna em baixo */
     color: white;
 }
 .section-banner-home .texto-banner p{
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: white;
     text-align: justify;
