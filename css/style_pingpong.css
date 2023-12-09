@@ -82,7 +82,7 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 /*  Fim Estilo carousel */
 
 /* Inicio estilo media  mobile */
-@media (max-width: 690px) {
+@media screen and (max-width: 690px) {
     #menu{
         display: block;
         position: absolute;
@@ -96,6 +96,9 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
         padding-left: 5px;
         visibility: hidden;
         overflow-y: hidden;
+    }
+    .section-banner-home{
+        height: auto !important;
     }
     #menu li {
         padding-top: 30px;
@@ -160,7 +163,7 @@ background: linear-gradient(90deg, rgba(15,15,52,1) 0%, rgba(57,16,115,1) 31%, r
 /*  Inicio estilo Banner Home */
 .section-banner-home{
 width: 100%;
-height: 600px;
+height: auto;
 margin-top: 10px;
 padding: 50px;
 background-color: #0f0f34;
@@ -185,7 +188,7 @@ box-shadow: 3px 3px 6px  #b1b1b1
     color: white;
 }
 .section-banner-home .texto-banner p{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: white;
     text-align: justify;
@@ -267,8 +270,13 @@ box-shadow: 3px 3px 6px  #b1b1b1
     width: 80%;
     margin: 70px auto;
 }
+.novidades .col-md6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .novidades .col-md-6 .img-fluid {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
